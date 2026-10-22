@@ -9,11 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.2",
+    "axios": "^1.20.0",
     "node-fetch": "^3.3.2",
     "yahoo-finance2": "^2.11.2"
   },
   "devDependencies": {
     "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": "^22.23.4 || ^24.22.1 || ^26.12.1"
   }
 }

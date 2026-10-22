@@ -2,7 +2,7 @@ packages:
   - name: yfinance
     actions:
       - name: current-rate
-        runtime: "nodejs:default"
+        runtime: "nodejs:22"
         environment:
           RAPID_API_KEY: "${YFINANCE_RAPID_API_KEY}"
         limits:
